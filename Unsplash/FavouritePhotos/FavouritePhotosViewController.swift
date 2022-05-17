@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FavouritesPhotosViewController.swift
 //  Unsplash
 //
 //  Created by Кирилл  Геллерт on 17.05.2022.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FavouritePhotosViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .black
     }
 
-
 }
-
